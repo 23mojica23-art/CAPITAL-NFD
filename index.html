@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NFD Capital SRL — Financiamiento en San Pedro de Macorís</title>
 <meta name="description" content="NFD Capital SRL. Tu proyecto, nuestra financiación. Préstamos personales, comerciales, consolidación de deudas y compra/venta de divisas en San Pedro de Macorís.">
+<meta property="og:title" content="NFD Capital SRL — Tu proyecto, nuestra financiación">
+<meta property="og:description" content="Préstamos personales, comerciales, consolidación de deudas y compra/venta de divisas en San Pedro de Macorís. Aprobación en menos de 24 horas.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="NFD Capital SRL">
+<meta name="twitter:description" content="Tu proyecto, nuestra financiación.">
 
 <!-- Tailwind CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
@@ -13,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect x=%226%22 y=%2238%22 width=%228%22 height=%2220%22 rx=%221%22 fill=%22%23E8863C%22/><rect x=%2218%22 y=%2230%22 width=%228%22 height=%2228%22 rx=%221%22 fill=%22%23F2B705%22/><rect x=%2230%22 y=%2220%22 width=%228%22 height=%2238%22 rx=%221%22 fill=%22%232541D0%22/><path d=%22M40 34 L58 14 L58 24 L50 24 Z%22 fill=%22%230B1E3F%22/><path d=%22M40 34 L58 14%22 stroke=%22%230B1E3F%22 stroke-width=%224%22 fill=%22none%22/></svg>">
 
 <script>
   tailwind.config = {
@@ -245,7 +251,7 @@
             <label for="simPlazo" class="text-sm font-medium text-slate-600">Plazo</label>
             <span id="simPlazoVal" class="text-base font-bold text-ink">24 meses</span>
           </div>
-          <input id="simPlazo" type="range" min="6" max="60" step="6" value="24" class="w-full">
+          <input id="simPlazo" type="range" min="6" max="24" step="6" value="24" class="w-full">
         </div>
 
         <div class="bg-surface rounded-xl p-4 flex items-center justify-between">
@@ -500,6 +506,64 @@
 <!-- =========================================================
      QUIÉNES SOMOS — MISIÓN / VISIÓN / COMPROMISO
 ========================================================= -->
+<section id="faq" class="py-14 lg:py-20 bg-surface">
+  <div class="max-w-4xl mx-auto px-5 lg:px-8">
+    <span class="rule block mb-5"></span>
+    <h2 class="text-3xl lg:text-4xl font-extrabold text-ink leading-tight max-w-lg">Preguntas frecuentes</h2>
+    <p class="mt-4 text-slate-600 max-w-xl">Resolvemos las dudas mas comunes sobre nuestros servicios financieros.</p>
+
+    <div class="mt-9 space-y-4">
+      <details class="group bg-white border border-slate-200 rounded-xl p-5 reveal reveal-d1">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer font-semibold text-ink list-none">
+          <span>Cuanto tiempo toma la aprobacion de mi prestamo?</span>
+          <i class="fa-solid fa-chevron-down text-ember transition-transform group-open:rotate-180 shrink-0"></i>
+        </summary>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">Evaluamos tu solicitud y te damos una respuesta en menos de 24 horas habiles, una vez recibida tu documentacion completa.</p>
+      </details>
+
+      <details class="group bg-white border border-slate-200 rounded-xl p-5 reveal reveal-d1">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer font-semibold text-ink list-none">
+          <span>Que documentos necesito para solicitar un prestamo?</span>
+          <i class="fa-solid fa-chevron-down text-ember transition-transform group-open:rotate-180 shrink-0"></i>
+        </summary>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">Depende de tu perfil: los trabajadores necesitan cedula y estados de cuenta personales; los comerciantes, estado de cuenta empresarial y verificacion del negocio. Consulta la seccion de Requisitos para mas detalles.</p>
+      </details>
+
+      <details class="group bg-white border border-slate-200 rounded-xl p-5 reveal reveal-d2">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer font-semibold text-ink list-none">
+          <span>Puedo solicitar un prestamo si ya tengo otras deudas?</span>
+          <i class="fa-solid fa-chevron-down text-ember transition-transform group-open:rotate-180 shrink-0"></i>
+        </summary>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">Si. Contamos con un plan de consolidacion de deudas pensado justamente para unificar tus pagos en una sola cuota mensual.</p>
+      </details>
+
+      <details class="group bg-white border border-slate-200 rounded-xl p-5 reveal reveal-d2">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer font-semibold text-ink list-none">
+          <span>Cobran algun cargo adicional?</span>
+          <i class="fa-solid fa-chevron-down text-ember transition-transform group-open:rotate-180 shrink-0"></i>
+        </summary>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">A las solicitudes aprobadas se les aplica una deduccion unica de RD$250 por concepto de papeleo. No hay cargos ocultos adicionales.</p>
+      </details>
+
+      <details class="group bg-white border border-slate-200 rounded-xl p-5 reveal reveal-d3">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer font-semibold text-ink list-none">
+          <span>Puedo cambiar divisas sin solicitar un prestamo?</span>
+          <i class="fa-solid fa-chevron-down text-ember transition-transform group-open:rotate-180 shrink-0"></i>
+        </summary>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">Si, nuestro servicio de compra y venta de divisas esta disponible de forma totalmente independiente a cualquier solicitud de prestamo.</p>
+      </details>
+
+      <details class="group bg-white border border-slate-200 rounded-xl p-5 reveal reveal-d3">
+        <summary class="flex items-center justify-between gap-4 cursor-pointer font-semibold text-ink list-none">
+          <span>Como me pongo en contacto con un asesor?</span>
+          <i class="fa-solid fa-chevron-down text-ember transition-transform group-open:rotate-180 shrink-0"></i>
+        </summary>
+        <p class="mt-3 text-sm text-slate-600 leading-relaxed">Puedes escribirnos por WhatsApp al 829-974-2407 o visitarnos en nuestra oficina en San Pedro de Macoris.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <section id="nosotros" class="py-14 lg:py-20 bg-white">
   <div class="max-w-7xl mx-auto px-5 lg:px-8">
     <span class="rule block mb-5"></span>
@@ -691,6 +755,7 @@
           <li><a href="#solicitud" class="hover:text-white transition-colors">Solicitud</a></li>
           <li><a href="#resenas" class="hover:text-white transition-colors">Reseñas</a></li>
           <li><a href="#contacto" class="hover:text-white transition-colors">Ubicación</a></li>
+          <li><a href="#faq" class="hover:text-white transition-colors">Preguntas Frecuentes</a></li>
         </ul>
       </div>
 
@@ -718,6 +783,10 @@
     </div>
   </div>
 </footer>
+
+<button id="backToTop" aria-label="Volver arriba" class="hidden fixed bottom-6 left-6 z-50 w-12 h-12 bg-ink hover:bg-navydark text-white rounded-full shadow-soft items-center justify-center transition-colors">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
 
 <!-- Floating WhatsApp button -->
 <a href="https://wa.me/18299742407?text=Hola%20NFD%20Capital%2C%20quiero%20solicitar%20informaci%C3%B3n%20sobre%20un%20pr%C3%A9stamo"
@@ -794,6 +863,18 @@
 })();
 
 /* ============ MOBILE MENU ============ */
+/* ============ BOTON VOLVER ARRIBA ============ */
+(function () {
+  const btn = document.getElementById('backToTop');
+  function toggleBtn() {
+    if (window.scrollY > 500) { btn.classList.remove('hidden'); btn.classList.add('flex'); }
+    else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
+  }
+  window.addEventListener('scroll', toggleBtn, { passive: true });
+  toggleBtn();
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+})();
+
 const menuBtn = document.getElementById('menuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 const iconOpen = document.getElementById('iconOpen');
@@ -848,7 +929,7 @@ function fmtRD(n) {
 function calcCuota() {
   const monto = Number(simMonto.value);
   const meses = Number(simPlazo.value);
-  const tasaMensual = 0.018;
+  const tasaMensual = 0.04;
   const cuota = (monto * tasaMensual) / (1 - Math.pow(1 + tasaMensual, -meses));
   simMontoVal.textContent = fmtRD(monto);
   simPlazoVal.textContent = meses + ' meses';
